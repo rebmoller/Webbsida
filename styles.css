@@ -1,0 +1,248 @@
+
+body {
+    text-transform: uppercase;
+    line-height: 3;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-bottom: 150px;
+    font-family:"Proxima Nova", Proxima, sans-serif;
+}
+h1 {
+    color: black;
+    font-size: 28px;
+    font-weight: 200;
+    font-family:"Proxima Nova", Proxima, sans-serif;
+    letter-spacing: 2px;
+}
+h2 {
+    color: black;
+    font-size: 20px;
+    font-weight: 200;
+    font-family:"Proxima Nova", Proxima, sans-serif;
+    text-align: center;
+    clear: right; 
+    letter-spacing: 2px;
+}
+h3 {
+    color: grey;
+    font-size: 15px;
+    font-weight: 200;
+    font-family:"Proxima Nova", Proxima, sans-serif;
+    text-align: center;
+    clear: right; 
+}
+h4 {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
+    font-family:"Proxima Nova", Proxima, sans-serif;
+    text-align: center;
+    clear: right; 
+}
+h5 {
+    color: black;
+    font-size: 15px;
+    width: 50%;
+    font-weight: 700;
+    font-family:"Proxima Nova", Proxima, sans-serif;
+    clear: right; 
+    margin: 0 auto;
+}
+h6 {
+    color: black;
+    font-size: 12px;
+    width: 50%;
+    font-weight: 300;
+    font-family:"Proxima Nova", Proxima, sans-serif;
+    clear: right; 
+    text-transform: none;
+    margin: 0 auto;
+}
+
+p.comments{
+    color: grey;
+    font-family:"Proxima Nova", Proxima, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    width: 50%;
+    text-transform: none;
+    line-height: 2;
+    text-align: left;
+}
+
+p {
+    color: grey;
+    font-family:"Proxima Nova", Proxima, sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+    width: 50%;
+    text-align: center;
+    text-transform: none;
+    line-height: 2;
+    margin: 0 auto;
+}
+
+hr {
+    width: 50%;
+    color: #f2f2f2;
+    font-weight: 100;
+}
+
+a:link {
+    color: #1a1a1a;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1a1a1a;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+img.pannkakor{
+    display: block;
+    clear: right;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+}
+
+img.vegobullar{
+    display: block;
+    clear: right;
+    margin: auto;
+    padding: 20px;
+    width: 60%;
+}
+
+.menu li {
+    float: right;
+}
+
+.menu a {
+    display: block;
+    padding: 20px;
+    border-color: black;
+    letter-spacing: 2px;
+}
+
+* {
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+}
+
+.month {
+    padding: 20px 25px;
+    width: 100%;
+    background: white;
+    text-align: center;
+}
+
+.month ul {
+    margin: 0;
+    padding: 30px;
+}
+
+.month ul li {
+    color: black;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.month .prev {
+    float: left;
+    padding-top: 10px;
+}
+
+.month .next {
+    float: right;
+    padding-top: 10px;
+}
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: white;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: grey;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.days {
+    padding: 10px 0;
+    background: white;
+    margin: 10px;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    padding:10px;
+    margin-bottom: 5px;
+    font-size:15px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 30px;
+    background: #00cc99;
+    color: white !important
+}
+
+.mySlides{
+width: 70%;
+display: none;
+margin: auto;
+clear: right;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 40px;
+    text-transform: none;
+    font-style: italic;
+    color: white;
+    font-family:"Times new roman", Times, sans-serif;
+    font-weight: 900;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+.center li{
+    color: white;
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
