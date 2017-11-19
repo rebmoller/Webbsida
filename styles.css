@@ -5,6 +5,8 @@ body {
     margin-right: 20px;
     margin-left: 20px;
     padding-bottom: 150px;
+    font-weight: 200;
+    letter-spacing: 2px;
     font-family:"Proxima Nova", Proxima, sans-serif;
 }
 h1 {
@@ -54,8 +56,18 @@ h6 {
     width: 50%;
     font-weight: 300;
     font-family:"Proxima Nova", Proxima, sans-serif;
-    clear: right; 
     text-transform: none;
+    clear: right; 
+    margin: 0 auto;
+}
+h7 {
+    color: black;
+    font-size: 12px;
+    width: 50%;
+    font-weight: 700;
+    font-family:"Proxima Nova", Proxima, sans-serif;
+    text-transform: none;
+    clear: right; 
     margin: 0 auto;
 }
 
@@ -155,16 +167,19 @@ ul {
     font-size: 20px;
     text-transform: uppercase;
     letter-spacing: 3px;
+    font-weight: 350;
 }
 
 .month .prev {
     float: left;
     padding-top: 10px;
+    font-weight: 350;
 }
 
 .month .next {
     float: right;
     padding-top: 10px;
+    font-weight: 350;
 }
 
 .weekdays {
@@ -179,6 +194,8 @@ ul {
     color: grey;
     text-align: center;
     margin: 0 auto;
+    font-weight: 200;
+
 }
 
 .days {
@@ -216,22 +233,48 @@ clear: right;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    font-size: 40px;
+    font-size: 30px;
     text-transform: none;
-    font-style: italic;
-    color: white;
-    font-family:"Times new roman", Times, sans-serif;
+    font-style: none;
+    color: black;
+    font-family:"Proxima Nova", Proxima, sans-serif;
     font-weight: 900;
     padding-left: 30px;
     padding-right: 30px;
     padding-top: 0px;
     padding-bottom: 0px;
     text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 2px;
+    background-color: white;
 }
 
-.center li{
-    color: white;
+.center a{
+    color: black;
+    font-size: 30px;
+    font-style: none;
 }
+
+img.mySlides{
+    opacity: 0.6;
+    filter: alpha(opacity=50);
+
+}
+
+form {
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.commet{
+    width: 50%;
+    text-align: center;
+    margin: 0 auto;
+
+}
+
 
 /* Add media queries for smaller screens */
 @media screen and (max-width:720px) {
