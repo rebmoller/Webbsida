@@ -37,13 +37,13 @@ if (isset($_SESSION['username'])){
 ?>
   
 </li>
-  <li><a href="recipes.php">Recipes</a></li>
+  <li><a class="active" href="recipes.php">Recipes</a></li>
   <li><a href="calendar.php">Calendar</a></li>
 </ul> 	
 
 <h1><a href="index.php">Tasty Recipes</a></h1>
 
-<img class="vegobullar" src="vegobullar.jpeg">
+<img class="vegobullar" src="vegobullar.jpeg" alt="Vegan Meatballs">
 
 
 <h2>Vegan meatballs</h2>

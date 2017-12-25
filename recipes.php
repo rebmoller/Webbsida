@@ -24,7 +24,7 @@ if (isset($_SESSION['username'])){
 ?>
   
 </li>
-  <li><a href="recipes.php">Recipes</a></li>
+  <li><a class="active" href="recipes.php">Recipes</a></li>
   <li><a href="calendar.php">Calendar</a></li>
 </ul> 	
 

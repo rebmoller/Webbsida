@@ -38,13 +38,13 @@ if (isset($_SESSION['username'])){
 ?>
   
 </li>
-  <li><a href="recipes.php">Recipes</a></li>
+  <li><a class="active" href="recipes.php">Recipes</a></li>
   <li><a href="calendar.php">Calendar</a></li>
 </ul> 	
 
 <h1><a href="index.php">Tasty Recipes</a></h1>
 
-<img class="pannkakor" src="pannkakor.jpg">
+<img class="pannkakor" src="pannkakor.jpg" alt="American Pancakes">
 
 <h2>American Pancakes</h2>
 

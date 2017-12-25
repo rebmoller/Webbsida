@@ -78,10 +78,10 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
   <li><?php
 
 if (isset($_SESSION['usernamn'])){
-  echo '<li><a href="logout.php">Logout</a></li>';
+  echo '<li><a class="active" href="logout.php">Logout</a></li>';
   }
   else{
-  echo '<li><a href="login.php">Login</a></li>';
+  echo '<li><a class="active" href="login.php">Login</a></li>';
 }
 ?></li>
   <li><a href="recipes.php">Recipes</a></li>

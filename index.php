@@ -14,8 +14,8 @@ $name=$_SESSION['username'];
 </head>
  
 <body>
-
 <ul class="menu">
+
   <li>
 <?php
 
@@ -30,9 +30,12 @@ if (isset($_SESSION['username'])){
 </li>
   <li><a href="recipes.php">Recipes</a></li>
   <li><a href="calendar.php">Calendar</a></li>
-</ul> 	
-
+</ul>
 <h1><a href="index.php">Tasty Recipes</a></h1>
+
+
+
+
 
 <div class="slideshow">
   <img class="mySlides" src="gratang.jpg" alt="Gratang">

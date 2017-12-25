@@ -60,16 +60,6 @@ h6 {
     clear: right; 
     margin: 0 auto;
 }
-h7 {
-    color: black;
-    font-size: 12px;
-    width: 50%;
-    font-weight: 700;
-    font-family:"Proxima Nova", Proxima, sans-serif;
-    text-transform: none;
-    clear: right; 
-    margin: 0 auto;
-}
 
 p.comments{
     color: grey;
@@ -98,6 +88,9 @@ hr {
     width: 50%;
     color: #f2f2f2;
     font-weight: 100;
+}
+.menu li .active {
+    text-decoration: underline;
 }
 
 a:link {
@@ -141,6 +134,7 @@ img.vegobullar{
     padding: 20px;
     border-color: black;
     letter-spacing: 2px;
+    text-decoration: none;
 }
 
 * {
@@ -288,4 +282,19 @@ form {
 
 @media screen and (max-width: 290px) {
     .weekdays li, .days li {width: 12.2%;}
+}
+
+@media screen and (max-width: 600px){
+    h1, .menu li {float: none;}
+}
+
+@media screen and (max-width: 900px){
+    .center, .center a {font-size: 20px;}
+}
+@media screen and (max-width: 700px){
+    .center, .center a {font-size: 14px;}
+}
+@media screen and (max-width: 600px){
+    .center, .center a {font-size: 10px;}
+    .center, .center a {position: relative;}
 }
